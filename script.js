@@ -26,7 +26,7 @@ updateView.addEventListener("click", (event) => {
 
 
 
-if(!(localStorage.getItem("channelId"))) localStorage.setItem("channelId", 957455373609074751)
+if(!(localStorage.getItem("channelId"))) localStorage.setItem("channelId", "957455373609074751")
 
 
 textarea.addEventListener("keydown", (e) => {
