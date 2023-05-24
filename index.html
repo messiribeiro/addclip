@@ -21,42 +21,62 @@
 </head>
 
 <body>
-    <div class="container">
-        <header>
 
-        </header>
-        <main>
-            <div id="header-container">
-                <h1>Add Clips</h1>
-                <!-- <img id="DopaminadosLogo" src="assets/DopaminadosLogo.png" alt=""> -->
-
-            </div>
-            <div id="container">
-
-                <div class="form-container">
-                    <form id="form" action="">
-                        <input placeholder="Add Clip" id="clipInput" type="text">
-                        <button type="submit">
-                            <img src="assets/plus-circle.svg" alt="">
-
-                        </button>
-                    </form>
-
-                </div>
-                <div id="react">
-                    <img src="./assets/plus-square.svg" alt="">
-                </div>
-                <p>The clip will be automaticly added to Discord Channel</p>
-                <div id="message">
-                    <p>Added</p>
-                </div>
-            </div>
-
-        </main>
-        <footer>
-            <p><img src="assets/cc icon.png" alt=""> 2023 Dopaminados</p>
-        </footer>
+    <div id="update-view">
+        <div id="update-container">
+            <h1>Olá! Temos Novidades</h1>
+            <p>Agora você tem total controle sobre o canal de destino das mensagens do nosso bot. Além disso, adicionamos um campo de comentários personalizado, permitindo que você crie descrições cativantes para cada mensagem. Essas melhorias proporcionam uma experiência ainda mais dinâmica e interativa. Descubra todas as possibilidades dessa versão atualizada e aproveite ao máximo cada funcionalidade!</p>
+            
+        </div>
     </div>
+
+    <div id="config-container">
+        <div id="config">
+            <form id="changeId" action="">
+                <label for="channelID">Id do canal</label>
+                <input id="channelID" placeholder="Digite um Id" type="number">
+            </form>
+        </div>
+    </div>
+
+    <header>
+        
+        <img id="settings" src="./assets/settings.svg" alt="">
+    </header>
+    <main>
+        <div class="container">
+                <div id="header-container">
+                    <h1>Add Clips</h1>
+                   
+    
+                </div>
+                <div id="container">
+    
+                    <div class="form-container">
+                        <form id="form" action="">
+                            <input placeholder="Add Clip" id="clipInput" type="text">
+                            <button type="submit">
+                                <img src="assets/plus-circle.svg" alt="">
+    
+                            </button>
+                        </form>
+    
+                    </div>
+                    <div id="comment">
+                        <textarea name="coment" class="comment-textarea" placeholder="Adicione um comentário (Opcional)" cols="30" rows="5"></textarea>
+                    </div>
+                    <p>The clip will be automaticly added to Discord Channel</p>
+                    <div id="message">
+                        <p>Added</p>
+                    </div>
+                </div>
+            
+        </div>
+    </main>
+    <footer>
+        <p><img src="assets/cc icon.png" alt=""> 2023 Dopaminados</p>
+    </footer>
+    
     <script src="script.js"></script>
 </body>
 
