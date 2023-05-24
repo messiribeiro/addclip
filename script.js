@@ -98,7 +98,7 @@ function submit(event){
     if (input.value == "") {
         alert("Campo vazio!")
     } else {
-        const url = 'http://localhost:3000/addClip';
+        const url = 'https://addclip.onrender.com/addClip';
 
         const clip = {
             link: input.value,
